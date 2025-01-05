@@ -1,4 +1,4 @@
-import { html } from "@quiver-js";
+import { html } from "https://esm.sh/@quiver-js/core";
 import Nav from "./Nav.js";
 
 export default function Layout(Page, { title }) {

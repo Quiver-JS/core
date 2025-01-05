@@ -1,4 +1,4 @@
-import { html, reactive, page } from "@quiver-js";
+import { html, reactive, page } from "https://esm.sh/@quiver-js/core";
 import Layout from "./components/layout/Layout.js";
 
 import HomePage from "./pages/home/HomePage.js";
@@ -9,14 +9,14 @@ export default function App() {
 
   // For github pages
   if (location.pathname.includes("quiver")) {
-    page.base("/quiver");
+    page.base("/core");
   }
 
-  page.redirect("/core/docs/index.html", "/core/docs");
-  page("/core/docs", () => {
+  page.redirect("/docs/index.html", "/");
+  page("/", () => {
     state.page = Layout(HomePage, { title: "Home" });
   });
-  page("/core/docs/about", () => {
+  page("/about", () => {
     state.page = Layout(AboutPage, { title: "About" });
   });
   page();

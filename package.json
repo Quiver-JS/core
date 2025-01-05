@@ -4,7 +4,7 @@
   "description": "Micro framework for arrow-js reactive JavaScript library.",
   "main": "index.js",
   "directories": {
-    "example": "/core/docs"
+    "example": "/core"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/Quiver-JS/core#readme",
   "dependencies": {
-    "https://esm.sh/@quiver-js/core": "^1.0.0-alpha.10",
+    "@arrow-js/core": "^1.0.0-alpha.10",
     "page": "^1.11.6"
   }
 }
