@@ -1,13 +1,14 @@
 {
   "name": "@quiver-js/core",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Micro framework for arrow-js reactive JavaScript library.",
   "main": "index.js",
   "directories": {
     "example": "/core"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "npm version patch"
   },
   "repository": {
     "type": "git",
