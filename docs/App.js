@@ -12,11 +12,11 @@ export default function App() {
     page.base("/quiver");
   }
 
-  page.redirect("/examples/index.html", "/examples");
-  page("/examples", () => {
+  page.redirect("/docs/index.html", "/docs");
+  page("/docs", () => {
     state.page = Layout(HomePage, { title: "Home" });
   });
-  page("/examples/about", () => {
+  page("/docs/about", () => {
     state.page = Layout(AboutPage, { title: "About" });
   });
   page();

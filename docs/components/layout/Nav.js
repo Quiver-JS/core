@@ -8,9 +8,9 @@ export default function Nav() {
     <ul>
     <li><strong>Quiver</strong></li>
       <li> <a href="javascript:void(0)" @click="${() =>
-        page("/examples")}">Home</a> </li>
+        page("/docs")}">Home</a> </li>
       <li> <a href="javascript:void(0)" @click="${() =>
-        page("/examples/about")}">About</a> </li>
+        page("/docs/about")}">About</a> </li>
     </ul>
     <ul>
       <li> <a href="javascript:void(0)" @click="${() => login()}">${() =>
