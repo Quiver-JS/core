@@ -8,13 +8,16 @@ export default function App() {
   const state = reactive({ page: "" });
 
   // For github pages
-  const base = location.pathname.includes("core") ? "/core" : "/docs";
+  page.base("/docs");
+  if (location.pathname.includes("core")) {
+    page.base("/core");
+  }
 
-  page.redirect(`${base}/index.html`, base);
-  page(base, () => {
+  page.redirect("/index.html", "/");
+  page("/", () => {
     state.page = Layout(HomePage, { title: "Home" });
   });
-  page(`${base}/about`, () => {
+  page("/about", () => {
     state.page = Layout(AboutPage, { title: "About" });
   });
   page();
