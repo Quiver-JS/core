@@ -12,6 +12,10 @@ Compile-less native component SPA framework.
 
 [page](https://visionmedia.github.io/page.js/)
 
+### css template. Provides css templating within reactive states.
+
+./lib/css.js
+
 ## Features
 
 Page routing, functional components, native htm using native html templates,
@@ -26,4 +30,4 @@ VS Code:
 
 ## Run
 
-1. Right click on index.html and open with Live Server
+1. Right click on /docs/index.html and open with Live Server
