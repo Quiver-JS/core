@@ -1,6 +1,6 @@
 {
   "name": "@quiver-js/core",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Micro framework for arrow-js reactive JavaScript library.",
   "main": "index.js",
   "directories": {
