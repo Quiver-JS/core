@@ -24,9 +24,5 @@
   "bugs": {
     "url": "https://github.com/Quiver-JS/core/issues"
   },
-  "homepage": "https://github.com/Quiver-JS/core#readme",
-  "dependencies": {
-    "@arrow-js/core": "^1.0.0-alpha.10",
-    "page": "^1.11.6"
-  }
+  "homepage": "https://github.com/Quiver-JS/core#readme"
 }
