@@ -4,7 +4,7 @@
   "description": "Micro framework for arrow-js reactive JavaScript library.",
   "main": "index.js",
   "directories": {
-    "example": "docs"
+    "example": "/core/docs"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
