@@ -1,4 +1,4 @@
-import { reactive } from "@quiver/core";
+import { reactive } from "https://esm.sh/@quiver-js/core";
 
 export const homeStore = reactive({
   count1: 0,

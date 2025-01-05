@@ -8,15 +8,13 @@ export default function App() {
   const state = reactive({ page: "" });
 
   // For github pages
-  if (location.pathname.includes("quiver")) {
-    page.base("/core");
-  }
+  const base = location.pathname.includes("core") ? "/core" : "/docs";
 
-  page.redirect("/docs/index.html", "/");
-  page("/", () => {
+  page.redirect(`${base}/index.html`, base);
+  page(base, () => {
     state.page = Layout(HomePage, { title: "Home" });
   });
-  page("/about", () => {
+  page(`${base}/about`, () => {
     state.page = Layout(AboutPage, { title: "About" });
   });
   page();

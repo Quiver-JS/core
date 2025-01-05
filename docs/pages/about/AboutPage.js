@@ -1,4 +1,4 @@
-import { html } from "@quiver/core";
+import { html } from "https://esm.sh/@quiver-js/core";
 import Button from "../../components/button/Button.js";
 import { aboutStore } from "./AboutStore.js";
 import { homeStore } from "../home/HomeStore.js";

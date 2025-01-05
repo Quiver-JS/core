@@ -1,4 +1,4 @@
-import { html, css } from "@quiver/core";
+import { html, css } from "https://esm.sh/@quiver-js/core";
 
 export default function Button({ onClick, color = "", title = "" }) {
   return html`

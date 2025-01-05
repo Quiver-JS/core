@@ -1,4 +1,4 @@
-import { html } from "@quiver/core";
+import { html } from "https://esm.sh/@quiver-js/core";
 import page from "https://esm.sh/page";
 import { layoutStore, login } from "./LayoutStore.js";
 
